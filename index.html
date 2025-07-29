@@ -1,9 +1,9 @@
 <html class>
 	<head>
-		<title>Heptatonic's Github Page</title>
+		<title>Heptatonic's Collection</title>
 	
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 		<link rel="manifest" href="/site.webmanifest">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,12 +11,12 @@
 			<style>
 			
 				a:visited {
-					color: rgb(150,150, 255);
+					color: rgb(100,180, 255);
 				}
 				
 				a:link {
 					
-					color: yellow;
+					color: rgb(100,180, 255);
 					text-decoration: none;				
 				}
 				
@@ -36,12 +36,11 @@
 				}
 				
 				body {
-					font-family: "Inconsolata", sans-serif;
-					text-align: center;
+					font-family: "Consolas", sans-serif;
 					color: white;
-					margin-left: 175px;
-					margin-right: 175px;
-					background-color: rgb(30,30,40);
+					margin-left: 200px;
+					margin-right: 200px;
+					background-color: rgb(10,10,20);
 				}
 				footer {
 					font-family: "Inconsolata", sans-serif;
@@ -54,21 +53,47 @@
 				
 				
 				.moddables {
-					background-color: rgb(10,10,20);
+					background-color: rgb(15,15,25);
+					border-radius: 10px;
 					text-align: left;
 					padding: 10px;
 				}
-				.menu{
+				.menu {
+					background-color: rgb(15,15,25);
 					padding: 10px;
+					border-radius: 10px;
 				}
 				
-				h2 {
-				text-align: left;
-					background-color: rgb(10,10,20);
+				
+				
+				h3 {
+					background-color: rgb(20,20,30);
+					border-radius: 10px;
+					padding: 5px;
+					align-items: center; 
+					display: flex; 
 					
 				}
 				
+				header {
+					text-align: center;
+					border-radius: 10px;
+					margin: 20px;
+					padding: 10px;
+				}
 				
+				text2 {
+					font-size: 26px;
+				}
+				
+				menu2 {
+					position: relative;
+					background-color: rgb(30,30,50);
+					bottom: -15px;
+					padding: 10px;
+					border-radius: 10px;
+					display: table;
+				}
 				
 				
 			</style>
@@ -77,45 +102,47 @@
 	</head>
 	<body>
 		<div id="content">
-			<header style="background-color: rgb(20,20,30);">
-				<h1>Heptatonic's Github Page</h1>
-				<img src="https://i.imgur.com/6ANzMue.gif"></img>
+			<header>
+				<img src="assets/images/logo.png" style="width: 290px; height: 90px;"></img>
 				
-				
-			
-			
 			</header>
-			<div class="menu" style="background-color: rgb(20,20,30);">
-				
-				<text>A github site that contains all of my Baldi's Basics mods from <a href="https://gamebanana.com/">GameBanana</a>. Note that all of these mods don't have source codes, don't ask me why</text>
+			
+			<menu2>
+				<text2>About This Page</text2>
+			</menu2>
+			
+			<div class="menu">
 				<br>
-				<text>
+				<text>A github page that was meant to be a mod collection or maybe a mod archive.</text>
 				<br>
-				<text>Any issues? You can contact me on my discord server!</text>
-				
-			<h2>- Baldi's Basics Plus</h2>
-			<div class="moddables">
-				
-				<div class="pages" id="extra-ytps">
-					
-					<a href="https://gamebanana.com/mods/586405" title="The gamebanana mod page for Extra YTP's">Baldi's Basics Plus - Extra YTP's [0.11.X]</a>
-				</div>
-				<div class="pages" id="legacy-hud">
-					
-					<a href="https://gamebanana.com/mods/590260" title="The gamebanana mod page for Legacy Hud">Baldi's Basics Plus - Legacy Hud [0.11.X]</a>
-				</div>
-				<div class="pages" id="only-baldi-on-every-floor">
-					
-					<a href="https://gamebanana.com/mods/583732" title="The gamebanana mod page for Only Baldi On Every Floor">Baldi's Basics Plus - Only Baldi On Every Floor [0.9.X]</a>
-				</div>
-				
+				<br>
+				<text>Any issues? Just contact me on <a href="https://discord.gg/G4WCHbRfxP">Discord!</a></text>
 			</div>
+			
+			<menu2>
+				<text2>Moddables</text2>
+			</menu2>
+
+			<div class="moddables">
+					<h3><img src="https://images.gamebanana.com/img/ico/games/62ec28fd3038e.png" style="width: 28px;"/>Baldi's Basics Plus</h3>
+					<div class="inModdables" style="background-color: rgb(20,20,30); border-radius: 5px; padding: 5px;">
+						<div id="legacy-hud">
+							<li/><a href="https://gamebanana.com/mods/590260">BB+ - Legacy Hud [0.11.x]</a>
+						</div>
+						<div id="extra-ytps">
+							<li/><a href="https://gamebanana.com/mods/586405">BB+ - Extra YTP's [0.11.x]</a>
+						</div>
+						<div id="baldi-every-floor">
+							<li/><a href="https://gamebanana.com/mods/583732">BB+ - Only Baldi On Every Floor [0.9.x]</a>
+						</div>
+					</div>
 			</div>
 			
 		</div>
 		
 		
 		<script type="text/javascript">
+
 		</script>
 	</body>
 	
